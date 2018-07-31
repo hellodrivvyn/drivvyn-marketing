@@ -1,0 +1,245 @@
+@media (max-width: 575px) {
+	.header-container {
+		height: 80vh;
+	}
+
+	.header-content {
+		position: relative;
+		top: 5rem;
+		text-align: center;
+	}
+
+	.first-col {
+		display:none;
+	}
+
+	.display-3 {
+		font-size: 2.8rem !important;
+	}
+
+	.about-section {
+		padding: 0 2rem;
+	}
+
+	.about-content {
+		margin: 2rem auto;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.header-container {
+		height: 80vh;
+	}
+
+	.header-content {
+		position: relative;
+		top: 5rem;
+		text-align: center;
+	}
+
+	.first-col {
+		display:none;
+	}
+
+	.display-3 {
+		font-size: 2.8rem !important;
+	}
+
+	.about-section {
+		padding: 0 4rem;
+	}
+
+	.about-content {
+		margin: 2rem auto;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.header-container {
+		height: 100vh;
+	}
+
+	.header-content {
+		position: relative;
+		top: 10rem;
+	}
+
+	.display-3 {
+		font-size: 2.8rem !important;
+	}
+
+	.about-section {
+		padding: 0 8rem;
+	}
+
+	.about-content {
+		margin: 2rem auto;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.header-content {
+		position: relative;
+		top: 12rem;
+	}
+
+	.header-content p, .header-content a {
+		margin-left: 0;
+	}
+
+	.display-3 {
+		font-size: 3.0rem !important;
+	}
+
+	.about-section {
+		padding: 4rem;
+	}
+
+	.about-content {
+		width: 80%;
+		margin: 2rem auto 0 auto;
+	}
+
+	.signup-card {
+		margin: 1.5rem 0;
+		max-width: 90%
+	}
+
+}
+
+@media (min-width: 1200px) { 
+	
+	.header-content {
+		position: relative;
+		top: 10rem;
+		max-width: 60vw;
+		margin: 0 auto;
+	}
+
+	.header-content p {
+		margin: 0 auto;
+		font-size: 20px;
+		max-width: 70%
+	}
+
+	.header-content a {
+		margin-top:.75rem;
+	}
+
+	.display-3 {
+		font-size: 4.5rem !important;
+	}
+
+	.about-section {
+		padding: 6rem;
+	}
+
+	.signup-card {
+		margin: 2rem auto;
+		max-width: 80%;
+	}
+}
+
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.site-title {
+	border-style:solid;
+	border-width:3px;
+	padding: 0 .75rem;
+}
+
+nav {
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+nav.scroll {
+	background-color: #FFF;
+}
+
+.header-container {
+	background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("../images/drivvyn-header-image.jpeg") no-repeat center bottom;
+	background-size: cover;
+	padding: 0 !important;
+	text-align:center;
+}
+
+/*#fixed-nav.scrolled {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+}*/
+
+.about-section {
+	min-height: 85vh;
+	background: #13a67e;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #667db6, #0082c8, #0082c8, #667db6);
+	background: linear-gradient(to left, #667db6, #0082c8, #0082c8, #667db6);*/
+	color: white;
+
+}
+
+.feature-header{
+	padding: 2rem 0 0 0;
+}
+
+.about-content svg {
+	margin: 1rem 0;
+}
+
+.signup-card {
+	color: black;
+}
+
+.signup-form {
+	padding: 1rem 0;
+}
+
+.mastfoot {
+	margin: 0 auto;
+	text-align: center;
+}
+
+hr {
+	margin-top: 0;
+}
+
+/* DEMO PAGE STYLES*/
+
+.sidebar-sticky {
+	position:sticky;
+}
+
+.task-card {
+	margin-bottom: .75rem;
+}
+
+svg {
+	margin-right: .5rem;
+}
