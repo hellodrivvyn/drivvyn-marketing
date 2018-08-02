@@ -9,7 +9,7 @@ const { sanitizeBody } = require('express-validator/filter');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {title: 'Drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness'});
+  res.render('index', {title: 'drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness'});
 });
 
 // POST
@@ -75,7 +75,7 @@ router.post('/', [
 		//var email = req.body.email;
 
 		if(!errors.isEmpty()) {
-			res.render('#about', { title: 'Drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness', errors: errors.array()});
+			res.render('#about', { title: 'drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness', errors: errors.array()});
 			console.log(errors);
 			return;
 		} else {
