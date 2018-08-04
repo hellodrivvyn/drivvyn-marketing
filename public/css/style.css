@@ -144,7 +144,7 @@
 }
 
 body {
-
+	font-family: 'Nunito';
 }
 
 h1,
@@ -152,12 +152,15 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;
 	font-weight: 100;
+	*/
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 a {
@@ -185,7 +188,7 @@ nav.scroll {
 }
 
 .header-container {
-	background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("../images/drivvyn-header-image.jpeg") no-repeat center bottom;
+	background: linear-gradient(rgba(255, 255, 255, .33), rgba(255, 255, 255, .33)), url("../images/drivvyn-header-image.jpeg") no-repeat center bottom;
 	background-size: cover;
 	padding: 0 !important;
 	text-align:center;

@@ -75,13 +75,13 @@ router.post('/', [
 		//var email = req.body.email;
 
 		if(!errors.isEmpty()) {
-			res.render('#about', { title: 'Drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness', errors: errors.array()});
+			res.render('index', { title: 'Drivvyn | Your Career Development Assistant', header: 'Achieve Your Greatness', errors: errors.array()});
 			console.log(errors);
 			return;
 		} else {
 			axios({
 				method: 'post',
-				url: 'https://api.mailerlite.com/api/v2/subscribers',
+				url: 'https://api.mailerlite.com/api/v2/groups/10218812/subscribers',
 				headers: {'Content-Type': 'application/json', 'X-MailerLite-ApiKey': process.env.MAILERLITE_KEY},
 				data: {
 					'email': req.body.email
